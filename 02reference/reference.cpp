@@ -10,7 +10,7 @@ void Increment(int& value) {
     value++;
 }
 
-int main() {
+int reference() {
 
     int a = 5;
     int b = 8;
