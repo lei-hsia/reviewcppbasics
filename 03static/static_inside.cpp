@@ -10,7 +10,7 @@ struct Entity {
     }
 };
 
-int main() {
+int static_inside() {
 
     Entity e{};
     e.x = 2;
