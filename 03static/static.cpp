@@ -3,7 +3,7 @@
 
 extern int s_variable;
 
-int main() {
+int static_demo() {
 
     std::cout << s_variable << std::endl;
     std::cin.get();
