@@ -12,6 +12,6 @@ public:
     void Hello() {}
 };
 
-int main() {
+int singleton_nonstatic() {
     Singleton::Get().Hello();
 }
