@@ -30,7 +30,7 @@ public:
     std::string getClassName() override { return "Player"; }
 };
 
-int main() {
+int virtualdemo() {
     Entity* e = new Entity();
     Player* p = new Player("Lei");
 
