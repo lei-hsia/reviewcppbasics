@@ -22,7 +22,7 @@ void PrintEntity(const Entity& e) {
     std::cout << e.getX() << std::endl;
 }
 
-int main() {
+int constandpointer() {
     const int MAX_AGE = 120;
     int* a = new int;
 
