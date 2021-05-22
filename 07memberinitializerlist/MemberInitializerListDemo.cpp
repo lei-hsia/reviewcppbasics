@@ -14,7 +14,7 @@ public:
     const std::string& getName() const { return m_name; }
 };
 
-int main() {
+int memberinitializer() {
     Entity* e;
     int a = 2;
     int* b = new int[50];
