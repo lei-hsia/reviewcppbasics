@@ -25,7 +25,7 @@ public:
     }
 };
 
-int main() {
+int scopedptr() {
     {
         ScopePtr e = new Entity();
         // Entity* e1 = new Entity();
