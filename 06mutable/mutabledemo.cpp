@@ -16,7 +16,7 @@ public:
     }
 };
 
-int main() {
+int EntityDemo() {
     const Entity e;
     e.getName();
 
