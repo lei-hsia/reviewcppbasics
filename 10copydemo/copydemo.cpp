@@ -41,7 +41,7 @@ std::ostream& operator<<(std::ostream& stream, const String& string){
     return stream;
 }
 
-int main() {
+int copydemo() {
     String string = "Lei";
     String second = string;
     second[1] = 'a';
