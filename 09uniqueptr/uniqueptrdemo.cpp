@@ -17,7 +17,7 @@ public:
     void print() {}
 };
 
-int main() {
+int uniqueptrdemo() {
     {
         std::weak_ptr<Entity> e0;
         {
