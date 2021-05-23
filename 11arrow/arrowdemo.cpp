@@ -10,7 +10,7 @@ struct Vector3 {
     float x, y, z;
 };
 
-int main() {
+int arrowdemo() {
      int offset_x = (uintptr_t)&((Vector3*)nullptr)->y;
      std::cout << offset_x << std::endl;
 
