@@ -6,7 +6,7 @@
 #include <iostream>
 #include <vector>
 
-int main() {
+int autodemo() {
     std::vector<std::string> strings;
     strings.emplace_back("Apple");
     strings.emplace_back("Orange");
