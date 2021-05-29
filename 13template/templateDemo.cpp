@@ -6,6 +6,8 @@
 #include <iostream>
 #include <string>
 
+#define LOG(x) std::cout << x << std::endl
+
 template<typename T, int N>
 class Array {
 private:
@@ -14,9 +16,9 @@ public:
     int getSize() const { return N; }
 };
 
-int main() {
+int ArrayDemo() {
     Array<int ,5> array;
-    std::cout << array.getSize() << std::endl;
-
+    LOG(array.getSize());
+    //std::cout << array.getSize() << std::endl;
     std::cin.get();
 }
