@@ -21,7 +21,7 @@ std::ostream& operator<<(std::ostream& ostream, const Vertex& vertex){
     return ostream;
 }
 
-int main() {
+int stldemo() {
     std::vector<Vertex> vertices;
     vertices.reserve(3);
     vertices.emplace_back(1,2,3);
