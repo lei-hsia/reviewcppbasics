@@ -9,7 +9,7 @@ void helloworld(int a) {
     std::cout << "hello world" << a << std::endl;
 }
 
-int main() {
+int functionpointerdemo() {
     typedef void(*HelloWorldFunction)(int);
     HelloWorldFunction function = helloworld;
     function(7);
